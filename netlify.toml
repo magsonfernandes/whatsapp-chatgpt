@@ -1,0 +1,5 @@
+# This repo is a WhatsApp bot (a long-running Node.js process) that can't run on
+# Netlify. What Netlify serves is the static Docsify documentation site in docs/.
+[build]
+  publish = "docs"
+  command = ""
